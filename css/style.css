@@ -6,7 +6,7 @@ img {
 
 .slideshow {
     background-color: #EEE;
-    padding: 20px;
+    padding: 0;
 }
 
 .containerLayer {
@@ -46,9 +46,10 @@ img {
     width: 776px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
     .wrapper {
-        width: 100%;
+        margin: 0 auto 0 auto;
+        width: 96%;
     }
 }
 
