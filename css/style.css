@@ -75,3 +75,10 @@ img {
     line-height: 70px;
 	height: 70px;
 }
+
+
+/* Adjust Toggle button */
+
+.navbar-toggle {
+	margin-top: 18px;
+}
