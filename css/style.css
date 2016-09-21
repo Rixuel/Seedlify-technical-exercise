@@ -4,9 +4,10 @@ img {
 	max-height: 100%;
 }
 
-.slideshow {
-    background-color: #EEE;
-    padding: 0;
+.carouselContent {
+    background-color: #D04;
+    color: #FFF;
+    padding: 20px;
 }
 
 .containerLayer {
@@ -18,12 +19,23 @@ img {
     background-color: #FFF;
     padding: 15px 10px 15px 10px;
 }
+
+.copyright {
+    color: #AFAFAF;
+}
+
+.copyright a {
+    color: #AFAFAF;
+    text-decoration: underline;
+}
+
 .rectangle {
     background-color: #656565;
     border: 4px solid #FFF;
     height: 192px;
     width: 100%;
 }
+
 .redbutton {
     background: red;
     
@@ -37,6 +49,15 @@ img {
     font-size: 12px;
     font-weight: bold;
     padding: 6px 15px;
+}
+
+.slideshow {
+    background-color: #EEE;
+    padding: 0;
+}
+
+.warranty {
+    color: #777777;
 }
 
 .wrapper {
