@@ -5,9 +5,17 @@ img {
 }
 
 .carouselContent {
-    background-color: #D04;
+    background-color: #C02;
     color: #FFF;
+    height: 360px;
     padding: 20px;
+}
+.carouselContent a {
+    color: #FFF;
+}
+
+.carouselMain {
+    padding: 0;
 }
 
 .containerLayer {
