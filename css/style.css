@@ -1,9 +1,46 @@
+img {
+	border: 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
 .containerLayer {
     background-color: #DDD;
+    padding: 80px 20px 80px 20px;
+}
+
+.containerLayer2 {
+    padding: 15px 10px 15px 10px;
 }
 
 .wrapper {
     box-shadow: 0px 0px 20px 2px #BBB;
+    font-size: 10px;
     margin: 0 auto 0 auto;
     width: 776px;
+}
+
+
+
+
+
+/* Adjust Navbar Height */
+
+.navbar-default {
+    background-color: #FFF;
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+
+.navbar-nav li a {
+	padding-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+	color: #000 !important;
+    font-weight: bold;
+    line-height: 70px;
+	height: 70px;
 }
