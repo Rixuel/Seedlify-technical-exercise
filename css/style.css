@@ -4,13 +4,38 @@ img {
 	max-height: 100%;
 }
 
+.slideshow {
+    background-color: #EEE;
+    padding: 20px;
+}
+
 .containerLayer {
-    background-color: #DDD;
-    padding: 80px 20px 80px 20px;
+    background-color: #DFDFDF;
+    padding: 80px 10px 80px 10px;
 }
 
 .containerLayer2 {
     padding: 15px 10px 15px 10px;
+}
+.rectangle {
+    background-color: #656565;
+    border: 4px solid #FFF;
+    height: 192px;
+    width: 100%;
+}
+.redbutton {
+    background: red;
+    
+    background: -webkit-linear-gradient(#602, #F03); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#602, #F03); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#602, #F03); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#602, #F03); /* Standard syntax */
+    
+    border: 1px solid #903;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 15px;
 }
 
 .wrapper {
@@ -31,7 +56,6 @@ img {
     border: 0px;
     margin-bottom: 0px;
 }
-
 
 .navbar-nav li a {
 	padding-top: 0;
