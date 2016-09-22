@@ -54,7 +54,7 @@ img {
     background-color: #656565;
     border: 4px solid #FFF;
     height: 192px;
-    width: 100%;
+    width: 298px;
 }
 
 .redbutton {
@@ -139,7 +139,7 @@ img {
 
 .carousel-indicators {
     bottom: -70px;
-    left: 305px;
+    left: 304px;
     width: 635px;
 }
 
@@ -188,4 +188,32 @@ img {
     
     border: 4px solid #555;
     z-index: 1;
+}
+
+
+
+@media screen and (max-width: 815px) {
+    .indicators-box {
+        border: 4px solid #FF0;
+    }
+    .carousel-indicators {
+        width: 235px;
+    }
+    .carousel-indicators > li,
+    .carousel-indicators > li.active{
+        font-size: 2.0em;
+        width: 58px;
+        height: 28px;
+        padding-top: 0px;
+    }
+    .carousel-indicators > li.active:after {
+        top: -13px;
+        left: 20px;
+    }
+    .carousel-indicators > li.active:before {
+        top: -5px;
+        left: -4px;
+        width: 64px;
+        height: 36px;
+    }
 }
