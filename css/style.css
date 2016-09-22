@@ -54,7 +54,8 @@ img {
     background-color: #656565;
     border: 4px solid #FFF;
     height: 192px;
-    width: 298px;
+    max-width: 298px;
+    width: 100%;
 }
 
 .redbutton {
@@ -190,14 +191,11 @@ img {
     z-index: 1;
 }
 
-
-
 @media screen and (max-width: 815px) {
-    .indicators-box {
-        border: 4px solid #FF0;
-    }
     .carousel-indicators {
+        bottom: -46px;
         width: 235px;
+        margin-left: -304px;
     }
     .carousel-indicators > li,
     .carousel-indicators > li.active{
