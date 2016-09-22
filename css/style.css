@@ -10,12 +10,6 @@ img {
     height: 360px;
     padding: 20px;
 }
-.carouselContent .carousel-caption {
-    top: 0;
-    bottom: auto;
-    margin-left: -30px;
-    text-align: left;
-}
 .carouselContent a {
     color: #FFF;
 }
@@ -125,4 +119,11 @@ img {
 .carousel-inner .item img {
     height: 360px;
     width: 100%;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    margin-left: -30px;
+    text-align: left;
 }
