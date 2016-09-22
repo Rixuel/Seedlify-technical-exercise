@@ -139,13 +139,13 @@ img {
 
 .carousel-indicators {
     bottom: -70px;
-    left: 300px;
+    left: 305px;
     width: 635px;
 }
 
 .carousel-indicators > li,
 .carousel-indicators > li.active{
-    background: #FFF; /* For browsers that do not support gradients */
+    background: #FFF;
     background: -webkit-linear-gradient(#FFF, #CCC); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#FFF, #CCC); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FFF, #CCC); /* For Firefox 3.6 to 15 */
@@ -165,9 +165,9 @@ img {
     vertical-align: middle; /*middle centred*/
 }
 .carousel-indicators > li.active {
-    outline-color: #0f0;
+    /*outline-color: #0f0;
     outline-style: solid;
-    outline-width: 4px;
+    outline-width: 4px;*/
     position: relative;
 }
 .carousel-indicators > li.active:after {
@@ -178,8 +178,19 @@ img {
     
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #0F0;
+    border-bottom: 10px solid #FF0;
     
-    display: block;
+    z-index: 1;
+}
+.carousel-indicators > li.active:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -4px;
+    
+    width: 164px;
+    height: 86px;
+    
+    border: 4px solid #0F0;
     z-index: 1;
 }
