@@ -10,8 +10,18 @@ img {
     height: 360px;
     padding: 20px;
 }
+.carouselContent .carousel-caption {
+    top: 0;
+    bottom: auto;
+    margin-left: -30px;
+    text-align: left;
+}
 .carouselContent a {
     color: #FFF;
+}
+.carouselContent h1 {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .carouselMain {
@@ -112,7 +122,7 @@ img {
 
 
 /* Carousel Adjustment */
-.carousel-inner > .item > img {
+.carousel-inner .item img {
     height: 360px;
     width: 100%;
 }
