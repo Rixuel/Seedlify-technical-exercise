@@ -17,6 +17,12 @@ img {
     font-weight: bold;
     text-transform: uppercase;
 }
+@media screen and (max-width: 991px) {
+    .carouselContent {
+        height: 300px !important;
+    }
+}
+
 
 .carouselMain {
     padding: 0;
