@@ -83,9 +83,6 @@ img {
 }
 
 
-
-
-
 /* Adjust Navbar Height */
 
 .navbar-default {
@@ -111,4 +108,11 @@ img {
 
 .navbar-toggle {
 	margin-top: 18px;
+}
+
+
+/* Carousel Adjustment */
+.carousel-inner > .item > img {
+    height: 360px;
+    width: 100%;
 }
